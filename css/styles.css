@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background-color: #8b4513;
+  overflow: hidden;
+  text-align: center;
+}
+.header h1 {
+  color: #fff8d5;
+  margin-top: 10px;
+}
+.header h4 {
+  color: #c69263;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+.title-section {
+  background-color: #deb887;
+  overflow: hidden;
+  margin-top: 0.05cm;
+  color: #6c4926;
+}
+
+/* About Me */
+.about-me {
+  display: flex;
+  overflow: hidden;
+  margin-left: 5.9%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile-img-section {
+  display: flex;
+  flex-direction: column;
+}
+.profile-img-section img {
+  width: 200px;
+}
+.social-icons-section {
+  display: flex;
+  overflow: hidden;
+  gap: 5px;
+  margin-top: 10px;
+}
+.social-icons-section img {
+  width: 45px;
+}
+.about-me-text-section {
+  margin-left: 5.9%;
+}
+.about-me-text1 {
+  margin-top: 5px;
+}
+.about-me-text-section h2 {
+  color: #904f33;
+}
+
+/* Experience */
+.experience-section {
+  margin: 0px 2px 0px 2px;
+}
+.experience-table {
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.experience-table-head tr {
+  text-align: center;
+  color: white;
+  background: #a0522d;
+  height: 40px;
+  border-bottom: 2px solid black;
+}
+.experience-table-head th {
+  border-right: 2px solid black;
+}
+.experience-table-body {
+  text-align: left;
+}
+.border-right {
+  border-right: 2px solid black;
+}
+.cell-padding {
+  padding-left: 10px;
+}
+.experience-table-body img {
+  width: 100px;
+}
+.border-top {
+  border-top: 2px solid black;
+}
+.experience-table-foot th {
+  color: white;
+  background-color: #a0522d;
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+}
+
+/* Contact */
+.contact-me-section {
+  background-color: #deb887;
+  overflow: hidden;
+  margin-top: 0.08cm;
+}
+.contact-me-section h2 {
+  color: #6c4926;
+}
+.contact-me-section p {
+  color: #b07443;
+}
+
+/* Forms */
+.personal-info-form {
+  background-color: #faf0e6;
+}
+.personal-details-form {
+  background-color: #f5deb3;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.personal-details-form table {
+  margin-bottom: 10px;
+}
+.personal-info-form legend,
+.personal-details-form legend {
+  color: #c09273;
+}
+
+/* Form padding */
+.form-padding-right {
+  padding-right: 30px;
+}
+.form-padding-left {
+  padding-left: 150px;
+}
+
+/* Utilities */
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.select-source {
+  width: 150px;
+}
+
+/* Form buttons */
+.form-buttons {
+  margin-bottom: 10px;
+}
